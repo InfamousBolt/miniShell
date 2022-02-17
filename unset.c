@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   unset.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: keshav <keshav@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/19 19:46:38 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/25 16:50:06 by amalecki         ###   ########.fr       */
+/*   Updated: 2022/02/17 21:59:48 by keshav           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ bool	delete(char **command, int i, int j)
 	size_t		len;
 
 	len = ft_strlen(*(command + i));
-	if (!strncmp(*(g_env.env_var + j), *(command + i), len))
+	if (!ft_strncmp(*(g_env.env_var + j), *(command + i), len))
 	{
 		if (*(*(g_env.env_var + j) + len) == '='
 			|| *(*(g_env.env_var + j) + len) == '\0')

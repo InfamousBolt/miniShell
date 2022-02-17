@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cd.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: keshav <keshav@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 10:29:18 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/30 07:54:07 by amalecki         ###   ########.fr       */
+/*   Updated: 2022/02/17 21:59:35 by keshav           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	change_dir(char *new, char *current)
 		export((char *[]){"cd", temp, NULL});
 		ft_memset(temp, 0, 2000);
 		ft_strlcpy(temp, "PWD=", 2000);
-		memset(buf, 0, 2000);
+		ft_memset(buf, 0, 2000);
 		getcwd(buf, 2000);
 		ft_strlcat(temp, buf, 2000);
 		export((char *[]){"cd", temp, NULL});
