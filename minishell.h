@@ -6,7 +6,7 @@
 /*   By: keshav <keshav@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 16:27:35 by amalecki          #+#    #+#             */
-/*   Updated: 2022/02/17 19:49:29 by keshav           ###   ########.fr       */
+/*   Updated: 2022/02/17 21:27:52 by keshav           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 
-# define TERMINAL "MINISHELL OF BOLT and ANSIS: "
+# define TERMINAL "MINISHELL OF SPAX and BOLT: "
 # define C_CHAR_SET "-'=_-~:!$#+@.,/\\"
 
 typedef struct s_instructions
