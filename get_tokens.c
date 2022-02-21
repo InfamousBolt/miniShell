@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_tokens.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/11 19:07:17 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/30 20:05:50 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/12 16:13:12 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:23:45 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main_process_utils.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/25 11:10:47 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/31 11:25:13 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/20 08:30:52 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:25:41 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

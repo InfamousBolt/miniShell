@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: keshav <keshav@student.42.fr>              +#+  +:+       +#+         #
+#    By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/01/10 16:22:42 by amalecki          #+#    #+#              #
-#    Updated: 2022/02/19 17:16:24 by keshav           ###   ########.fr        #
+#    Created: 2022/02/15 09:04:21 by sergiopax         #+#    #+#              #
+#    Updated: 2022/02/21 09:31:00 by sergiopax        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,12 +29,12 @@ OBJECTS_IN_DIR 	= ${addprefix ${OBJECTS_DIR}, ${OBJECTS}}
 NAME = minishell
 
 ${NAME}:	${OBJECTS_IN_DIR} minishell.h
-	${CC} ${CFLAGS} ${OBJECTS_IN_DIR} -o ${NAME} -lreadline
+	${CC} ${OBJECTS_IN_DIR} -o ${NAME} -lreadline
 
 $(OBJECTS_DIR)%.o : %.c minishell.h
 	mkdir -p ${OBJECTS_DIR}
 	cp ./minishell.h ./${OBJECTS_DIR} 
-	${CC} ${CFLAGS} -c $< -o $@ -lreadline
+	${CC} -c $< -o $@ -lreadline
 
 RM = rm -rf
 

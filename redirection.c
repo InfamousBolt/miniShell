@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   redirection.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/16 10:16:44 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/31 12:29:36 by amalecki         ###   ########.fr       */
+/*   Created: 2022/02/01 09:27:32 by keshav            #+#    #+#             */
+/*   Updated: 2022/02/21 09:29:27 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

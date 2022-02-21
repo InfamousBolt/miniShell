@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   get_io_files.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 10:02:12 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/31 12:01:12 by amalecki         ###   ########.fr       */
+/*   Created: 2022/02/17 10:13:12 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 08:59:58 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "minishell.h"
 

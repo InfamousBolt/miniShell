@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   manage_environment_variables.c                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/18 10:17:33 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/31 13:53:57 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/29 20:27:58 by keshav            #+#    #+#             */
+/*   Updated: 2022/02/21 09:26:23 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

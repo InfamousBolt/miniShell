@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   check_tokens.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/30 18:32:04 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/31 15:13:07 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/21 09:00:34 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:01:39 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "minishell.h"
 

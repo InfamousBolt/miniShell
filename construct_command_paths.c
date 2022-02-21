@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   construct_command_paths.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/12 17:06:55 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/30 18:23:14 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/21 09:03:04 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:03:50 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "minishell.h"
 

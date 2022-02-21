@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_here_document.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/23 20:26:09 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/31 11:31:46 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/10 19:48:39 by keshav            #+#    #+#             */
+/*   Updated: 2022/02/21 09:18:10 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

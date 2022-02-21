@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   closed_quotes.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/24 10:28:52 by amalecki          #+#    #+#             */
-/*   Updated: 2022/02/01 10:44:35 by amalecki         ###   ########.fr       */
+/*   Created: 2022/02/20 10:28:52 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:02:50 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "minishell.h"
 

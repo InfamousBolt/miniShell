@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   goes_crazy_2.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/30 11:48:30 by keshav            #+#    #+#             */
-/*   Updated: 2022/02/01 11:07:24 by amalecki         ###   ########.fr       */
+/*   Updated: 2022/02/21 09:24:08 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ extern t_environment	g_env;
 
 int	check_edge_unset(char *s)
 {
+	
 	int		i;
 	char	*rem_str;
 	int		error;

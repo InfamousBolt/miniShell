@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   expand_variables_utils.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/22 11:36:38 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/29 12:20:02 by amalecki         ###   ########.fr       */
+/*   Created: 2022/01/21 12:04:21 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:19:02 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

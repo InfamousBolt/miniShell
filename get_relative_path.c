@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_relative_path.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: sergiopax <sergiopax@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/14 17:19:18 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/28 10:02:02 by amalecki         ###   ########.fr       */
+/*   Created: 2022/02/17 10:13:12 by sergiopax         #+#    #+#             */
+/*   Updated: 2022/02/21 09:22:28 by sergiopax        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
