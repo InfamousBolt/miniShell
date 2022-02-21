@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   execute_builtins.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amalecki <amalecki@students.42wolfsburg    +#+  +:+       +#+        */
+/*   By: keshav <keshav@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/15 11:09:17 by amalecki          #+#    #+#             */
-/*   Updated: 2022/01/28 10:03:44 by amalecki         ###   ########.fr       */
+/*   Updated: 2022/02/21 11:59:13 by keshav           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+extern t_environment	g_env;
 
 int	is_builtin(char *command)
 {
@@ -51,5 +53,34 @@ int	execute_builtin(int b, char **command, t_instructions instructions)
 		unset(command);
 	if (b == 7)
 		env(instructions);
+	return (0);
+}
+
+int	exit_with_options(char *s)
+{
+	long int	option_to_num;
+	char		*option;
+
+	if (!ft_strncmp(s, "exit ", 5))
+	{
+		option = ft_strsub(s, 5, ft_strlen(s));
+		if (ft_count_char(option, ' ') >= 1)
+		{
+			printf("exit: too many arguments\n");
+			free(option);
+			g_env.exit_status = 1;
+		}
+		else if (ft_is_numeric(option))
+		{
+			option_to_num = ft_str_to_num(option);
+			exit(option_to_num);
+		}
+		else
+		{
+			g_env.exit_status = 2;
+			exit(2);
+		}
+		return (1);
+	}
 	return (0);
 }
